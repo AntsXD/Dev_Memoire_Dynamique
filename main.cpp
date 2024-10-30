@@ -81,7 +81,7 @@ int main() {
 	deallocate(mat2, n);
 	deallocate(mat3, n);
 	
-
+	// why is this not committing
 
 
 
