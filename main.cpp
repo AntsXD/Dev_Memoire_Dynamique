@@ -70,6 +70,8 @@ int main() {
 	fill(mat2, n, m, 5);
 	cout << "mat2" << endl;
 	print(mat2, n, m);
+	int** mat3 = multiply(mat1, mat2, n, m, m);
+	print(mat3, n, m);
 
 
 
@@ -77,6 +79,7 @@ int main() {
 
 	deallocate(mat1, n);
 	deallocate(mat2, n);
+	deallocate(mat3, n);
 	
 
 
